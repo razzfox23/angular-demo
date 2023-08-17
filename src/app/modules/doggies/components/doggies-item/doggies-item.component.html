@@ -1,0 +1,15 @@
+<div class="ui-item">
+    <div class="ui-image" [style.backgroundImage]="'url('+doggie?.image+')'"></div>
+    <div class="ui-block-text">
+        <h3>{{doggie?.name}}</h3>
+        <div class="ui-more-info">
+            <div class="ui-small-section">
+                <span>{{doggie?.description}}</span>
+                <!--
+                    <button *ngIf="(user$.role | async) === Constants.userRoles.ADMIN">Delete dog</button>
+
+                -->
+            </div>
+        </div>
+    </div>
+</div>

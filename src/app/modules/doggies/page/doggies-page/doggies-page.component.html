@@ -1,0 +1,10 @@
+
+<div class="ui__content">
+    
+    <h2 *ngIf="loading$ | async">Loading...</h2>
+    
+    <a [routerLink]="['doggie', 'create']" class="ui__button">Create dog</a>
+    <small>If you try to go to "create a new dog", you can't because AuthGuard does't allow it (user needed)</small>
+
+    <app-doggies-list *ngIf="!(loading$ | async)"></app-doggies-list>
+</div>

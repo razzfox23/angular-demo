@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+.ui__button {
+    background: #34d968;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .ui__button:hover {
+    background: #3c8d13;
+    background-image: linear-gradient(to bottom, #80ff40, #abff96);
+    text-decoration: none;
+  }
+
+  .ui__content{
+    margin-top: 30px;
+  }
